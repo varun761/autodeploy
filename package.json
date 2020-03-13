@@ -1,0 +1,22 @@
+{
+  "name": "logsetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "pm2 start ecosystem.config.js",
+	"devl": "pm2 start ecosystem.config.js --env=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "https-proxy-agent": "^5.0.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.2"
+  }
+}
